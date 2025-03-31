@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WebRTC 화상 회의</title>
+  
+</head>
+<body>
+    <div class="container">
+        <h1>WebRTC 화상 회의</h1>
+        <div class="controls">
+            <input type="text" id="roomId" placeholder="회의실 ID 입력">
+            <button id="joinBtn">회의 참가</button>
+            <button id="leaveBtn">회의 종료</button>
+        </div>
+        <div class="video-container">
+            <video id="localVideo" autoplay playsinline muted></video>
+            <video id="remoteVideo" autoplay playsinline></video>
+        </div>
+    </div>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/8.2.3/adapter.min.js"></script>
+    <script src="https://raw.githubusercontent.com/Kurento/kurento-utils-js/master/lib/kurento-utils.js"></script>
+    <script src="/js/conference.js"></script>
+</body>
+</html> 
