@@ -20,7 +20,7 @@ let peerConnection = null;        // WebRTC 연결 객체
 let roomId = null;                // 현재 참가한 룸 ID
 let localStream = null;           // 로컬 비디오/오디오 스트림
 
-// 페이지 로드 완료 시 실행
+// 페이지 로드 완료 시 실행2
 window.onload = function() {
     // UI 요소 가져오기
     const joinBtn = document.getElementById('joinBtn');
