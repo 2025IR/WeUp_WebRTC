@@ -20,9 +20,6 @@ pipeline: Kurento 미디어 파이프라인
 participants: 참가자 ID와 WebRtcEndpoint 매핑
 */
 
-
-
-
 @Getter
 public class Room implements Closeable {
     private final String roomId;
